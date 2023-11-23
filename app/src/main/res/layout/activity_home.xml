@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front_page"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/british_council"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/brit_council"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="British Council"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/my_english_page"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/mep"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="My English Page"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/dave_esl_cafe"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="170dp"
+                                android:layout_height="170dp"
+                                android:src="@drawable/daves_esl_cafe"
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dave's ESL Cafe"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/purdue_writing_lab"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/pwl"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Purdue Writing Lab"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/doulingo"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/doulingo"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Doulingo"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/perfect_english_grammar"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/peg"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Perfect English Grammar"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cambridge_english"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/cambridge_english"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cambridge English"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/leo"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/leo"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Learn English Online"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/english_at_home"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/eah"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="English at Home"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/american_english"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/laeo"
+                                />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="American English"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/leckerli_one"
+                            android:layout_marginVertical="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
